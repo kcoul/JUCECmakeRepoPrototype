@@ -49,6 +49,8 @@ option(BUILD_JUCE_PROTOTYPE_EXAMPLES "Build JUCE prototype examples" ON)
 #adding any custom modules you might have:
 add_subdirectory(Modules)
 
+add_subdirectory(Libraries)
+
 if (${BUILD_JUCE_PROTOTYPE_EXAMPLES})
     #adding project folders:
     add_subdirectory(Apps)
